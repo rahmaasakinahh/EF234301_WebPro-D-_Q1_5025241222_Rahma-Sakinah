@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage | Quiz 1</title>
+  <link rel="stylesheet" href="style-profile.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Barriecito&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Rubik+Iso&display=swap" rel="stylesheet">
+
+  <style>
+    nav {
+      z-index: 100;
+      color: #fff;
+      text-align: center;
+      position: fixed;
+      line-height: 60px;
+      width: 100%;
+      transition: background-color 0.5s ease;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0 16px;
+      font-weight: 500;
+      font-family: "Lexend Deca", sans-serif;
+      border-radius: 999px;
+      transition: background-color 0.3s ease, padding 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #E67E22;
+      padding: 10px 30px;
+    }
+
+    header {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    header video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    header .intro {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="layar-dalam">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="lexend-deca-regular">Home</a></li>
+          <li><a href="profile.html" class="lexend-deca-regular">Profile</a></li>
+          <li><a href="hometown.html" class="lexend-deca-regular">Hometown</a></li>
+          <li><a href="food.html" class="lexend-deca-regular">Food</a></li>
+          <li><a href="tourist.html" class="lexend-deca-regular">Places</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <video autoplay muted loop>
+      <source src="asset/fox-in-rorest.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="intro">
+      <h1 class="profile-title barriecito-regular">About Me</h1>
+      <p class="tombol profile-subtitle lexend-deca-regular">Who is Ama ?</p>
+    </div>
+  </header>
+
+  <section class="profile-container">
+    <div class="profile-text">
+      <h2>I'm the person you call Ama❕</h2>
+      <p class="lexend-deca-regular">
+        Hello, I’m Rahma Sakinah, an undergraduate Informatics Engineering student at Sepuluh Nopember Institute of Technology (ITS), with student ID 5025241222. I am currently in my second year of study, specifically in the third semester.
+      </p>
+      <p class="lexend-deca-regular">
+        I was born on February 13, 2006. Although it was quite a surprise for me to join the Informatics Engineering department, I’ve grown to really enjoy learning about web development and database management — though that doesn’t mean I dislike learning other subjects.
+      </p>
+      <p class="lexend-deca-regular">
+        I truly hope that I will continue to love informatics as much as I love cheese🧀
+      </p>
+
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+      <div class="social-row">
+        <a class="social-btn instagram" href="https://www.instagram.com/rahmasakinah_/" target="_blank" aria-label="Instagram">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a class="social-btn github" href="https://github.com/rahmaasakinahh" target="_blank" aria-label="GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a class="social-btn linkedin" href="https://www.linkedin.com/in/rahma-sakinah-0624b7337/" target="_blank" aria-label="LinkedIn">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a class="social-btn whatsapp" href="https://wa.me/6289530376404" target="_blank" aria-label="WhatsApp">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="profile-photo">
+      <img src="asset/foto-ama.jpg" alt="Foto Profil">
+    </div>
+  </section>
+
+  <footer>
+    <div class="layar-dalam">
+      <div class="copyright">&copy; Ama's Quiz 1 Web Programming 2025</div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage | Quiz 1</title>
+  <link rel="stylesheet" href="style-tourist.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Barriecito&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Rubik+Iso&display=swap" rel="stylesheet">
+
+  <style>
+    nav {
+      z-index: 100;
+      color: #fff;
+      text-align: center;
+      position: fixed;
+      border-bottom: none;
+      line-height: 60px;
+      width: 100%;
+      transition: background-color 0.5s ease;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0px 16px;
+      font-weight: 500;
+      font-family: "Lexend Deca", sans-serif;
+      border-radius: 999px;
+      transition: background-color 0.3s ease, padding 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #E67E22;
+      padding: 10px 30px;
+    }
+
+    nav ul li a:active {
+      text-decoration: none;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="layar-dalam">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="lexend-deca-regular">Home</a></li>
+          <li><a href="profile.html" class="lexend-deca-regular">Profile</a></li>
+          <li><a href="hometown.html" class="lexend-deca-regular">Hometown</a></li>
+          <li><a href="food.html" class="lexend-deca-regular">Food</a></li>
+          <li><a href="tourist.html" class="lexend-deca-regular">Places</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="judul1">
+    <video autoplay muted loop class="bg-video">
+      <source src="asset/fox-in-rorest.mp4" type="video/mp4">
+    </video>
+    <div class="judul-content">
+      <h1 class="profile-title barriecito-regular">Place to go ?</h1>
+    </div>
+  </div>
+
+  <div class="judul2">
+    <div class="judul-content">
+      <h1 class="profile-title barriecito-regular">Of course it's super worth it !!</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <div class="img-box">
+        <img src="asset/place1.jpg" alt="place 1">
+      </div>
+      <div class="content">
+        <h2 class="lexend-deca-regular">Gili Noko Island</h2>
+        <p class="lexend-deca-regular">A hidden gem in East Java, Gili Noko Island is a paradise of white sandy beaches and crystal-clear waters. Perfect for snorkeling, swimming, or simply relaxing by the shore, this untouched island offers a peaceful escape and breathtaking views you won’t forget.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="asset/place2.jpg" alt="place 2">
+      </div>
+      <div class="content">
+        <h2 class="lexend-deca-regular">Sekapuk Chalk Hill</h2>
+        <p class="lexend-deca-regular">Located in East Java, Sekapuk Chalk Hill is a stunning landscape of towering white limestone cliffs that contrast beautifully with the blue sky. Perfect for photography and exploration, this hidden gem combines natural beauty with a touch of history for an unforgettable experience.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="asset/place3.jpg" alt="place 3">
+      </div>
+      <div class="content">
+        <h2 class="lexend-deca-regular">Tomb of Sunan Giri</h2>
+        <p class="lexend-deca-regular">A sacred landmark in Gresik, the Tomb of Sunan Giri is not only a spiritual destination but also a cultural treasure. As one of the revered Wali Songo, his resting place attracts pilgrims and travelers alike, offering a serene atmosphere, rich history, and timeless legacy of Islam in Java.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="layar-dalam">
+      <div class="copyright">&copy; Ama's Quiz 1 Web Programming 2025</div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
